@@ -1,30 +1,51 @@
 body{
-    background-color: salmon;
+    width: 100vw;
+    height: 100vh;
+}
+#container{
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 50vh;
+
+    /* display flex is the keyword to set up autolayout*/
+    display: flex;
+    /* what direction the children will face*/
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    /* we add a gap beteeen the boxes*/
+    gap: 20px;
 }
 
-p{
-    color:aquamarine;
-    font-size: 20px;
-    font-weight: bold;
+.box{
+    background-color: #888888;
+    width: 200px;
+    height: 200px;
 }
 
-li{
-    color: white;
+/* A class to style the movie cards*/
+.card{
+    /* set a background color*/
+    background-color: #C0200B;
+    /* internal padding all around*/
+    padding: 16px;
+    /* add round corner*/
+    border-radius: 8px;
+
+    width: 30%;
 }
 
-#ananas{
-    font-size: 30px ;
+.card img{
+    width: 100%;
 }
 
-.black-bg{
-    background-color: black;
-    color: white;
-
-    padding:0px 32px;
-    margin: 64px;
+.section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
 
-#bob{
-    background-color: purple;
-}
 
