@@ -1,0 +1,30 @@
+body{
+    background-color: salmon;
+}
+
+p{
+    color:aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    color: white;
+}
+
+#ananas{
+    font-size: 30px ;
+}
+
+.black-bg{
+    background-color: black;
+    color: white;
+
+    padding:0px 32px;
+    margin: 64px;
+}
+
+#bob{
+    background-color: purple;
+}
+
